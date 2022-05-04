@@ -28,6 +28,9 @@ class replayBuffer:
         else:
             return True
 
+    def clear(self):
+        self.memory = []
+
 if __name__ == '__main__':
     import gym
     from PreprocessEnv import PreprocessEnv
