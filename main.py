@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 sample_size = 32
 max_mem_size = 500
-num_episodes = 1000
+num_episodes = 250
 lr = 0.001
 gamma = 0.99
 
