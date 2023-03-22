@@ -11,7 +11,6 @@ policy = nn.Sequential(
     nn.Softmax(dim = -1)
 )
 
-
 if __name__ == '__main__':
     import gym
     from ReplayBuffer import replayBuffer
